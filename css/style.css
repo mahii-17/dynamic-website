@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.aboutimg {
+  width: 90%;
+  height: 350px !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+}
+
+.carousel, .carousel-inner {
+  width: 100%;
+  overflow: hidden; /* Hide any content that overflows */
+}
+
+.carousel {
+  overflow-x: hidden;
+}
+.carousel {
+  width: 100%;
+}
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+.carousel, .carousel-item {
+  box-sizing: border-box;
+}
+
